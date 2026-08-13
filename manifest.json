@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Zoom Recording Downloader",
-  "version": "0.2.3",
-  "description": "開いているZoomクラウド録画を、現在のブラウザ認証で保存します。",
+  "name": "Cloud Recording Saver",
+  "version": "0.3.0",
+  "description": "Zoomの録画ページに対応した、ブラウザ内で動作するクラウド録画保存ツールです。",
   "minimum_chrome_version": "102",
   "permissions": [
     "tabs",
@@ -25,7 +25,7 @@
     "128": "icons/icon128.png"
   },
   "action": {
-    "default_title": "Zoom録画をダウンロード",
+    "default_title": "クラウド録画を保存",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
