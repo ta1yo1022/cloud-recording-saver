@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zoom Recording Downloader</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">ZOOM RECORDING</div>
+      <h1>録画を保存</h1>
+      <p class="lead">Zoomの録画ページを開いた状態で押してください。</p>
+      <button id="startCurrent" type="button">開いている動画を保存</button>
+      <section id="status" class="status" hidden aria-live="polite"></section>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zoom録画を保存</title>
+    <link rel="stylesheet" href="downloader.css">
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">ZOOM RECORDING</div>
+      <h1>録画を保存</h1>
+      <p id="filename" class="filename"></p>
+      <p id="message" class="message" aria-live="polite">Zoomとの接続を確認しています…</p>
+      <progress id="progress" max="100" value="0" hidden></progress>
+      <button id="save" type="button" disabled>保存先を選ぶ</button>
+    </main>
+    <script type="module" src="downloader.js"></script>
+  </body>
+</html>
