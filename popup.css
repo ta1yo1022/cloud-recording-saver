@@ -7,7 +7,7 @@ h1 { margin: 6px 0 20px; font-size: 25px; letter-spacing: -.03em; }
 .lead { margin: -8px 0 16px; color: #68758a; font-size: 12px; line-height: 1.6; }
 button { width: 100%; min-height: 42px; padding: 10px 14px; border: 0; border-radius: 10px; background: #2563eb; color: #fff; font: inherit; font-weight: 750; cursor: pointer; }
 button:disabled { opacity: .6; cursor: wait; }
-.status { margin-top: 14px; padding: 0; font-size: 12px; line-height: 1.5; }
+.status { min-height: 56px; margin: 0 0 -24px; padding: 0; display: flex; align-items: center; font-size: 12px; line-height: 1.5; }
+.status[hidden] { display: none; }
 .status.working, .status.idle { color: #68758a; }
-.status.success { color: #166534; }
-.status.error { color: #991b1b; }
+.status.success, .status.error { color: #2563eb; }
